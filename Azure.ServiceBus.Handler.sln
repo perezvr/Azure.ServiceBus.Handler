@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Azure.ServiceBus.Handler.Api", "src\Azure.ServiceBus.Handler\Azure.ServiceBus.Handler.Api.csproj", "{842F6D5E-1016-4C8D-8777-55BAACF4F794}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Presentation", "1 - Presentation", "{5460C82A-F178-4CAB-B3FA-AD0CD8A7239E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{677D456A-3B86-46D0-A649-C6691BB81413}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Azure.ServiceBus.Handler.Application", "src\Azure.ServiceBus.Handler.Application\Azure.ServiceBus.Handler.Application.csproj", "{4CEE5C4B-70C7-4555-8EC1-3CC4EFD2AF3D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{842F6D5E-1016-4C8D-8777-55BAACF4F794}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{842F6D5E-1016-4C8D-8777-55BAACF4F794}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{842F6D5E-1016-4C8D-8777-55BAACF4F794}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{842F6D5E-1016-4C8D-8777-55BAACF4F794}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CEE5C4B-70C7-4555-8EC1-3CC4EFD2AF3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CEE5C4B-70C7-4555-8EC1-3CC4EFD2AF3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CEE5C4B-70C7-4555-8EC1-3CC4EFD2AF3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CEE5C4B-70C7-4555-8EC1-3CC4EFD2AF3D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{842F6D5E-1016-4C8D-8777-55BAACF4F794} = {5460C82A-F178-4CAB-B3FA-AD0CD8A7239E}
+		{4CEE5C4B-70C7-4555-8EC1-3CC4EFD2AF3D} = {677D456A-3B86-46D0-A649-C6691BB81413}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EC05BD5A-E689-4B86-9F09-2DD9361B6453}
+	EndGlobalSection
+EndGlobal
